@@ -124,7 +124,3 @@ Report saved: outputs/seqA_seqB_141230.txt
 
 * **Cupid Moolchandani**
 * Bioinformatics Coding Challenge Submission
-
-```
-
-```
