@@ -49,7 +49,7 @@ def save_combined_report(seq1_path, full_seq1, seq2_path, full_seq2,
     
     # 2. Short timestamp: Day + Hour + Minute (e.g., 141230 for 14th 12:30)
     # This keeps it unique but much shorter than full YYYYMMDD...
-    timestamp = datetime.datetime.now().strftime("%d%H%M")
+    timestamp = datetime.datetime.now().strftime("%d%H%M%S")
     
     # Example result: geneA_geneB_141230.txt
     filename = f"{name1}_{name2}_{timestamp}.txt"
