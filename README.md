@@ -44,6 +44,7 @@ Affine-Sequence-Aligner/
 │   └── affine_aligner.py
 ├── README.md           # This documentation
 └── requirements.txt    # Dependencies
+```
 
 ## 🚀 Installation
 
