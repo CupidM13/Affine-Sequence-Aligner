@@ -60,7 +60,7 @@ pip install numpy
 
 ## 💻 Usage
 
-**Prerequisite:** Ensure your FASTA files are saved somewhere inside your project folder (e.g., inside the `data/` folder).
+**Prerequisite:** Ensure your FASTA files are saved somewhere inside your project folder (e.g., inside the `data/` folder). Write the path of the file including the extension like .fa or .fasta
 
 Run the tool from your project root using the command line:
 
