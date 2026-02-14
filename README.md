@@ -65,9 +65,12 @@ pip install numpy
 Run the tool from your project root using the command line:
 
 ```bash
-# Syntax: python src/affine_aligner.py <file1_path> <file2_path>
+python src/affine_aligner.py <file1_path> <file2_path>
 
-Example: python src/affine_aligner.py data/seq1.fasta data/seq2.fasta
+```
+Example:
+```bash
+python src/affine_aligner.py data/seq1.fasta data/seq2.fasta
 
 ```
 
