@@ -1,0 +1,48 @@
+============================================================
+          AFFINE GAP SEQUENCE ALIGNMENT REPORT
+============================================================
+Date:   2026-02-14 12:41:45
+File 1: seq1.fasta (len: 45)
+File 2: seq2.fasta (len: 45)
+------------------------------------------------------------
+PARAMETERS:
+Match: 1.0 | Mismatch: -1.0
+Gap Open (Sigma): -5.0 | Gap Ext (Epsilon): -1.0
+============================================================
+
+------------------------------------------------------------
+  1. GLOBAL ALIGNMENT (Needleman-Wunsch / Gotoh)
+------------------------------------------------------------
+Strategy:    Aligns sequences from end-to-end.
+Final Score: -13.0
+
+Seq1: ATGAGTCTCTCTGATAAGGACAAGGCTGCTGTGAAAGCCCTATGG
+      .||..||...|.||.|||..|||.|.....|.............|
+Seq2: CTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAG
+
+
+------------------------------------------------------------
+  2. LOCAL ALIGNMENT (Smith-Waterman with Affine Gaps)
+------------------------------------------------------------
+Strategy:    Finds the best matching substring.
+Final Score: 8.0
+Region 1:    Bases 16 to 29
+Region 2:    Bases 22 to 35
+
+Seq1: AAGGACAAGGCTGC
+      ||.|.||||||.||
+Seq2: AACGTCAAGGCCGC
+
+
+------------------------------------------------------------
+  3. LOCAL ALIGNMENT IN CONTEXT (Full Sequences)
+------------------------------------------------------------
+Showing the local match relative to the full sequence length.
+Lowercase = Unaligned regions | Uppercase = Aligned Match
+
+Seq1:       atgagtctctctgatAAGGACAAGGCTGCtgtgaaagccctatgg
+                           ||.|.||||||.||
+Seq2: ctgtctcctgccgacaagaccAACGTCAAGGCCGCctggggtaag
+
+
+============================================================
