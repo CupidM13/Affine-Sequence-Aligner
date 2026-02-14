@@ -48,18 +48,11 @@ Affine-Sequence-Aligner/
 ## 🚀 Installation
 
 1. **Clone the repository**:
-```bash
-git clone [https://github.com/CupidM13/Affine-Sequence-Aligner.git](https://github.com/CupidM13/Affine-Sequence-Aligner.git)
-cd Affine-Sequence-Aligner
-
-```
-
 
 2. **Install Dependencies:**
 This tool requires `numpy` for efficient matrix operations.
 ```bash
 pip install numpy
-
 ```
 
 
@@ -73,11 +66,9 @@ Run the tool from your project root using the command line:
 ```bash
 # Syntax: python src/affine_aligner.py <file1_path> <file2_path>
 
-python src/affine_aligner.py data/seq1.fasta data/seq2.fasta
+Example: python src/affine_aligner.py data/seq1.fasta data/seq2.fasta
 
 ```
-
-*(You can also run `python src/affine_aligner.py` without arguments to use interactive mode).*
 
 ### ⚠️ CRITICAL: SCORING PARAMETERS ⚠️
 
@@ -93,7 +84,7 @@ When prompted for scoring parameters, you **MUST enter negative numbers** for pe
 ## 📄 Output Format
 
 Results are saved to the `outputs/` folder with a filename format:
-`{seq1}_{seq2}_{DDHHMM}.txt`
+`{seq1}_{seq2}_{DDHHMMSS}.txt`
 
 The report includes:
 
