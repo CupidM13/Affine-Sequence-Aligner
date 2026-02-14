@@ -1,4 +1,3 @@
-```markdown
 # Affine Sequence Aligner
 
 A comprehensive bioinformatics tool written in Python that performs pairwise nucleotide sequence alignment using **Affine Gap Penalties**. 
@@ -37,7 +36,7 @@ The tool utilizes **Gotoh's Algorithm** with three Dynamic Programming matrices:
 
 ```text
 Affine-Sequence-Aligner/
-├── data/               # Place your input FASTA files here!
+├── data/               # Place your input FASTA files here
 │   ├── seq1.fasta
 │   └── seq2.fasta
 ├── outputs/            # Results are automatically saved here
@@ -46,13 +45,11 @@ Affine-Sequence-Aligner/
 ├── README.md           # This documentation
 └── requirements.txt    # Dependencies
 
-```
-
 ## 🚀 Installation
 
-1. **Clone the repository** (or download the files):
+1. **Clone the repository**:
 ```bash
-git clone [https://github.com/your-username/Affine-Sequence-Aligner.git](https://github.com/your-username/Affine-Sequence-Aligner.git)
+git clone [https://github.com/CupidM13/Affine-Sequence-Aligner.git](https://github.com/CupidM13/Affine-Sequence-Aligner.git)
 cd Affine-Sequence-Aligner
 
 ```
